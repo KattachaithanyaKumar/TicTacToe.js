@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body onload="display()">
+    <h1>TIC-TAC-TOE</h1>
+    <h3><span id = "turn"></span>'s Turn</h3>
+    <table>
+        <tr>
+            <td><input type="button" value = "" id = "1" onclick="one(), check()"></td>
+            <td><input type="button" value = "" id = "2" onclick="two(), check()"></td>
+            <td><input type="button" value = "" id = "3" onclick="three(), check()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value = "" id = "4" onclick="four(), check()"></td>
+            <td><input type="button" value = "" id = "5" onclick="five(), check()"></td>
+            <td><input type="button" value = "" id = "6" onclick="six(), check()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value = "" id = "7" onclick="seven(), check()"></td>
+            <td><input type="button" value = "" id = "8" onclick="eight(), check()"></td>
+            <td><input type="button" value = "" id = "9" onclick="nine(), check()"></td>
+        </tr>
+    </table>
+
+    <button class = "reset" onclick="reset()">RESET</button>    
+</body>
+</html>
